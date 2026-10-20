@@ -60,12 +60,12 @@ A layout Skill for AI agents (Claude Code / Codex / Cursor …). You write Markd
 
 <table>
 <tr>
-<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/terminal-dark-preview.html"><img src="docs/previews/terminal-dark.png" width="340" alt="Terminal Dark"></a><br><sub><b>Terminal Dark</b></sub></td>
-<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/violet-tech-preview.html"><img src="docs/previews/violet-tech.png" width="340" alt="Violet Tech"></a><br><sub><b>Violet Tech</b></sub></td>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/terminal-dark-preview.html"><img src="docs/previews/terminal-dark.jpg" width="340" alt="Terminal Dark"></a><br><sub><b>Terminal Dark</b></sub></td>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/violet-tech-preview.html"><img src="docs/previews/violet-tech.jpg" width="340" alt="Violet Tech"></a><br><sub><b>Violet Tech</b></sub></td>
 </tr>
 <tr>
-<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/blue-white-preview.html"><img src="docs/previews/blue-white.png" width="340" alt="Blue & White"></a><br><sub><b>Blue & White</b></sub></td>
-<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/data-report-preview.html"><img src="docs/previews/data-report.png" width="340" alt="Data Report"></a><br><sub><b>Data Report</b></sub></td>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/blue-white-preview.html"><img src="docs/previews/blue-white.jpg" width="340" alt="Blue & White"></a><br><sub><b>Blue & White</b></sub></td>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/data-report-preview.html"><img src="docs/previews/data-report.jpg" width="340" alt="Data Report"></a><br><sub><b>Data Report</b></sub></td>
 </tr>
 </table>
 

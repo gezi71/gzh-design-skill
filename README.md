@@ -41,12 +41,12 @@
 
 <table>
 <tr>
-<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/terminal-dark-preview.html"><img src="docs/previews/terminal-dark.png" width="340" alt="终端暗色"></a><br><sub><b>终端暗色</b></sub></td>
-<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/violet-tech-preview.html"><img src="docs/previews/violet-tech.png" width="340" alt="蓝紫科技"></a><br><sub><b>蓝紫科技</b></sub></td>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/terminal-dark-preview.html"><img src="docs/previews/terminal-dark.jpg" width="340" alt="终端暗色"></a><br><sub><b>终端暗色</b></sub></td>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/violet-tech-preview.html"><img src="docs/previews/violet-tech.jpg" width="340" alt="蓝紫科技"></a><br><sub><b>蓝紫科技</b></sub></td>
 </tr>
 <tr>
-<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/blue-white-preview.html"><img src="docs/previews/blue-white.png" width="340" alt="极简蓝白"></a><br><sub><b>极简蓝白</b></sub></td>
-<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/data-report-preview.html"><img src="docs/previews/data-report.png" width="340" alt="数据报告"></a><br><sub><b>数据报告</b></sub></td>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/blue-white-preview.html"><img src="docs/previews/blue-white.jpg" width="340" alt="极简蓝白"></a><br><sub><b>极简蓝白</b></sub></td>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/data-report-preview.html"><img src="docs/previews/data-report.jpg" width="340" alt="数据报告"></a><br><sub><b>数据报告</b></sub></td>
 </tr>
 </table>
 
