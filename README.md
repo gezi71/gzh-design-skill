@@ -22,7 +22,7 @@
 
 ---
 
-一个给 AI Agent（Claude Code / Codex / Cursor 等）用的公众号排版 Skill。你写完 Markdown，它按你选的主题，生成**样式全内联、粘贴到公众号编辑器不掉格式**的 HTML——自动编章节号、标关键词下划线、配引言卡与目录、处理代码块和图片、合并作者签名，并用脚本确定性地兜住公众号平台的各种限制。
+面向 Claude Code、Codex、Cursor 等 AI Agent 的微信公众号排版 Skill 增强版。内置 **10 套主题**，新增终端暗色、蓝紫科技、极简蓝白和数据报告，覆盖技术教程、AI 观察、知识文档与研究复盘。支持 Markdown、Word、PDF 和纯文本输入，自定义主题、章节编号、关键词标记、代码块及图片排版，并输出可预览、可复制的内联 HTML；组件库与最终正文均由脚本校验。
 
 ## ✨ 核心特性
 
@@ -37,7 +37,20 @@
 
 ## 👀 效果预览
 
-原有 6 套主题的截图如下；新增 4 套科技主题的完整文章及组件预览见 `docs/gallery/index.html`。原有主题各排同一篇长文（真实长图，含配图、引言卡、编号章节、金句、名词旁注等完整组件）：
+**[在线查看全部 10 套主题](https://gezi71.github.io/gzh-design-skill/docs/gallery/index.html)** · 新增四套的真实首屏截图如下，点击图片可打开完整文章并复制到公众号。
+
+<table>
+<tr>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/terminal-dark-preview.html"><img src="docs/previews/terminal-dark.png" width="340" alt="终端暗色"></a><br><sub><b>终端暗色</b></sub></td>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/violet-tech-preview.html"><img src="docs/previews/violet-tech.png" width="340" alt="蓝紫科技"></a><br><sub><b>蓝紫科技</b></sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/blue-white-preview.html"><img src="docs/previews/blue-white.png" width="340" alt="极简蓝白"></a><br><sub><b>极简蓝白</b></sub></td>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/data-report-preview.html"><img src="docs/previews/data-report.png" width="340" alt="数据报告"></a><br><sub><b>数据报告</b></sub></td>
+</tr>
+</table>
+
+原有 6 套主题的截图如下：
 
 <table>
 <tr>

@@ -23,3 +23,6 @@ node_modules/
 # 预览图托管在 GitHub Release，不入库
 docs/screenshots/
 *.png
+
+# README 使用的新增主题首屏截图随仓库维护
+!docs/previews/*.png

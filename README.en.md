@@ -56,7 +56,20 @@ A layout Skill for AI agents (Claude Code / Codex / Cursor …). You write Markd
 
 ## 🎨 10 Curated Themes
 
-Screenshots of the original 6 themes follow. Open `docs/gallery/index.html` to compare all 10 themes; the 4 technology themes also include full component catalogs.
+**[Browse all 10 themes online](https://gezi71.github.io/gzh-design-skill/docs/gallery/index.html)** · The four technology themes are shown below. Click a screenshot to open the complete article with a rich-text copy button.
+
+<table>
+<tr>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/terminal-dark-preview.html"><img src="docs/previews/terminal-dark.png" width="340" alt="Terminal Dark"></a><br><sub><b>Terminal Dark</b></sub></td>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/violet-tech-preview.html"><img src="docs/previews/violet-tech.png" width="340" alt="Violet Tech"></a><br><sub><b>Violet Tech</b></sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/blue-white-preview.html"><img src="docs/previews/blue-white.png" width="340" alt="Blue & White"></a><br><sub><b>Blue & White</b></sub></td>
+<td width="50%" align="center"><a href="https://gezi71.github.io/gzh-design-skill/docs/gallery/data-report-preview.html"><img src="docs/previews/data-report.png" width="340" alt="Data Report"></a><br><sub><b>Data Report</b></sub></td>
+</tr>
+</table>
+
+Screenshots of the original 6 themes follow.
 
 <table>
 <tr>
