@@ -2,15 +2,17 @@
 
 <div align="center">
 
+> This fork builds on [isjiamu/gzh-design-skill](https://github.com/isjiamu/gzh-design-skill), maintained by [gezi71](https://github.com/gezi71), adding four technology themes and full previews. Original attribution and the AGPL-3.0 license are retained.
+
 # gzh-design-skill · WeChat Layout Skill
 
 **Turn Markdown into polished HTML you can paste straight into the WeChat editor**
 
-6 curated themes + theme generator · code blocks / images / GIFs · auto section numbers & keyword marks · two-gate quality checks
+10 curated themes + theme generator · code blocks / images / GIFs · auto section numbers & keyword marks · two-gate quality checks
 
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blue)](https://claude.ai/code)
-[![Themes](https://img.shields.io/badge/themes-6%20+%20generator-059669)](references/theme-index.md)
+[![Themes](https://img.shields.io/badge/themes-10%20+%20generator-059669)](references/theme-index.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Agents](https://img.shields.io/badge/Claude%20Code%20·%20Codex%20·%20Cursor-supported-8b5cf6.svg)](#-quick-start)
 
@@ -24,7 +26,7 @@ A layout Skill for AI agents (Claude Code / Codex / Cursor …). You write Markd
 
 ## ✨ Features
 
-- **6 curated themes**: Moyu Green (default) · Red & White · Graphite Minimal · Zen Whitespace · Moyu Ticket · Olive Journal — each a self-contained thick component library (design tokens + dozens of components + visual-hierarchy table + article-type recipe table).
+- **10 curated themes**: Moyu Green (default) · Red & White · Graphite Minimal · Zen Whitespace · Moyu Ticket · Olive Journal · Terminal Dark · Violet Tech · Blue & White · Data Report — each a self-contained thick component library (design tokens + dozens of components + visual-hierarchy table + article-type recipe table).
 - **Theme generator**: none fit? Describe a style in one line or drop a reference image, and generate a fresh component library saved for reuse (see `references/theme-generator.md`).
 - **Full content support**: code blocks (dark/light, monospace), images, GIFs (with an animated badge), inline code, quotes, lists, product badges.
 - **Smart layout**: auto section numbering (last chapter ∞ / ///), 1–3 keyword underlines per paragraph, intro card & TOC distilled from the body, de-duplicated signature.
@@ -52,9 +54,9 @@ A layout Skill for AI agents (Claude Code / Codex / Cursor …). You write Markd
 | Word / PDF draft → WeChat | auto-normalize format → then pick a theme by topic |
 | A style beyond the built-ins | Theme generator: make one from a line or an image |
 
-## 🎨 6 Curated Themes
+## 🎨 10 Curated Themes
 
-One long-form article laid out in all 6 themes (full-fidelity screenshots with real images):
+Screenshots of the original 6 themes follow. Open `docs/gallery/index.html` to compare all 10 themes; the 4 technology themes also include full component catalogs.
 
 <table>
 <tr>
@@ -69,7 +71,7 @@ One long-form article laid out in all 6 themes (full-fidelity screenshots with r
 </tr>
 </table>
 
-> 📚 **All 6 themes → [docs/all-themes.md](docs/all-themes.md)**　|　or open `docs/gallery/index.html` for the interactive full HTML.
+> 📚 **All 10 themes → [docs/all-themes.md](docs/all-themes.md)**　|　or open `docs/gallery/index.html` for the interactive full HTML.
 
 ### Theme cheat-sheet
 
@@ -81,6 +83,10 @@ One long-form article laid out in all 6 themes (full-fidelity screenshots with r
 | ![](https://placehold.co/12/4A5D52/4A5D52.png) `#4A5D52` | Zen Whitespace | Zen, minimal living, reflective essays |
 | ![](https://placehold.co/12/059669/059669.png) `#059669` | Moyu Ticket | Tool comparisons, creative reviews (ticket motif) |
 | ![](https://placehold.co/12/1e1f23/1e1f23.png) `#1e1f23` | Olive Journal | Editorial notes, deep reviews, case recaps |
+| `#76E6AE` | Terminal Dark | Developer tutorials, command demos, technical logs |
+| `#6351C7` | Violet Tech | AI commentary, product analysis, technology trends |
+| `#2362A6` | Blue & White | Knowledge notes, product docs, how-to guides |
+| `#1D4F60` | Data Report | Data reviews, industry research, analytical reports |
 
 > English slug, library file and underline CSS for each theme: see [`references/theme-index.md`](references/theme-index.md). Need another style? Have the AI generate one with the [theme generator](references/theme-generator.md).
 
@@ -88,15 +94,15 @@ One long-form article laid out in all 6 themes (full-fidelity screenshots with r
 
 ```bash
 # One-line install (recommended)
-npx skills add https://github.com/isjiamu/gzh-design-skill
+npx skills add https://github.com/gezi71/gzh-design-skill
 
 # Or manual clone
-git clone https://github.com/isjiamu/gzh-design-skill.git ~/.claude/skills/gzh-design
+git clone https://github.com/gezi71/gzh-design-skill.git ~/.claude/skills/gzh-design
 ```
 
 Or just ask **any agent** (Claude Code / Codex / Cursor …):
 
-> Please find and install the skill at https://github.com/isjiamu/gzh-design-skill
+> Please find and install the skill at https://github.com/gezi71/gzh-design-skill
 
 Then, once installed, tell your agent:
 
@@ -145,7 +151,7 @@ Source gate flags `white-space:pre` (blank bloat), full-border dashed frames in 
 ```
 gzh-design/
 ├── SKILL.md                 # layout workflow (agent entry)
-├── references/              # 6 theme libs + generator + shared lib + theme-index + eval-cases
+├── references/              # 10 theme libs + generator + shared lib + theme-index + eval-cases
 ├── scripts/                 # validate_gzh_html.py + component_lint.py
 ├── assets/                  # sample-article.md + theme-previews/
 └── docs/gallery/            # browser preview of themes
@@ -165,7 +171,7 @@ gzh-design/
 
 ### Theme generation — one line or one reference image
 
-Not enough with the built-in 6? Have the AI make one. Driven by the second workflow in [`references/theme-generator.md`](references/theme-generator.md):
+Not enough with the built-in 10? Have the AI make one. Driven by the second workflow in [`references/theme-generator.md`](references/theme-generator.md):
 
 1. **Collect preferences** (asked all at once): theme description required (or a reference image); name / colors / font / radius / shadow / use-case auto-filled if blank.
 2. **Generate a block library**: 45–75 blocks of full inline-style HTML saved to `assets/theme-previews/{id}.html` — review the whole page at once in a browser.
@@ -190,7 +196,7 @@ Give just a primary color or a vibe, and the generator derives the whole harmoni
 
 **Can it output several themes at once?** Yes — say "lay this out in each of these themes" for a batch to choose from.
 
-**How do I update?** Re-run `npx skills add https://github.com/isjiamu/gzh-design-skill`, or `git pull` in the install dir.
+**How do I update?** Re-run `npx skills add https://github.com/gezi71/gzh-design-skill`, or `git pull` in the install dir.
 
 **What if the agent's output isn't compliant?** Run `scripts/validate_gzh_html.py`; fix on ERROR until both gates are green. Still stuck? Open an Issue.
 
